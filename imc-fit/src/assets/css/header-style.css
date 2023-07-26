@@ -1,0 +1,75 @@
+@font-face {
+    font-family: bebas;
+    src: url('../font/Bebas-Regular.otf');
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 1rem;
+}
+
+.logo-box{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 40%;
+}
+
+.logo-icon{
+    width: 100px;
+}
+
+.logo-box h1{
+    font-size: 45px;
+    font-family: bebas;
+    color: #fff;
+}
+
+.header-desc{
+    width: 10%;
+    padding: 0.5rem;
+    transition: 0.5s;
+    text-align: center;
+    background-color: #F5C20A;
+}
+
+.header-desc:hover{
+    scale: 105%;
+    background-color: #947608;
+}
+
+.header-desc a{
+    text-decoration: none;
+    font-family: bebas;
+    font-size: 30px;
+    color: #000000;
+}
+
+@media (max-width: 880px) {
+    .header-container {
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .logo-box {
+      width: 100%;
+      justify-content: center;
+      margin-bottom: 1rem;
+    }
+
+    .logo-box h1{
+        font-size: 50px;
+    }
+  
+    .logo-icon {
+      width: 25%;
+    }
+  
+    .header-desc {
+      width: 80%;
+    }
+  }
