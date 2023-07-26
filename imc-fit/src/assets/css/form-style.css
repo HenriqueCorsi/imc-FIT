@@ -1,0 +1,78 @@
+@font-face {
+    font-family: bebas;
+    src: url('../font/Bebas-Regular.otf');
+}
+
+.form{
+    width: 30%;
+    height: 600px;
+    padding: 1rem;
+    margin: 6rem auto;
+    background-color: #fff;
+}
+
+.form-title--box{
+    margin: 2rem 0 0 0;
+    text-align: center;
+}
+
+hr{
+    margin: 1rem 0;
+}
+
+.form-title--box h2{
+    font-size: 40px;
+    font-family: bebas;
+}
+
+.form-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 2rem 0;
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+
+label{
+    margin-bottom: 0.5rem;
+    font-size: 20px;
+    font-family: bebas;
+    font-weight: 700;
+}
+
+input{
+    width: 35%;
+    margin: auto;
+    padding: 0.5rem;
+    text-align: center;
+    border: none;
+    background-color: #E6E6E6;
+    font-size: 16px;
+}
+
+input:focus{
+    outline: none;
+}
+
+::placeholder{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+button{
+    width: 90%;
+    margin: auto;
+    padding: 0.5rem;
+    transition: 0.5s;
+    cursor: pointer;
+    font-family: bebas;
+    font-size: 25px;
+    background-color: #000;
+    color: #fff;
+}
+
+button:hover{
+    scale: 105%;
+    background-color: #282828;
+}
