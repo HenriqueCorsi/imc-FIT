@@ -6,12 +6,12 @@ function App() {
   return (
     <>
       <Header/>
-      <main>
+      <div className='main-box'>
         <img src={img} alt="" />
         <Form/>
-      </main>
+      </div>
     </>
   )
 }
 
-export default App
+export default App;
