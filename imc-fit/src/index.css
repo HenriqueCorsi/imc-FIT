@@ -14,11 +14,21 @@ body{
 main{
   display: flex;
   justify-content: space-between;
-  width: 90%;
+  width: 95%;
   margin: 1rem auto;
   background-color: #EFFE62;
 }
 
-.main-img{
+main img{
   width: 50%;
+}
+
+@media screen and (max-width: 949px) {
+    main{
+      display: block;
+    }
+
+    main img{
+      width: 100%;
+    }
 }

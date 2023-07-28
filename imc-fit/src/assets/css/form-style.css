@@ -4,8 +4,8 @@
 }
 
 .form{
-    width: 30%;
-    height: 600px;
+    width: 40%;
+    height: 500px;
     padding: 1rem;
     margin: 6rem auto;
     background-color: #fff;
@@ -42,7 +42,7 @@ label{
 }
 
 input{
-    width: 35%;
+    width: 60%;
     margin: auto;
     padding: 0.5rem;
     text-align: center;
@@ -61,7 +61,7 @@ input:focus{
 }
 
 button{
-    width: 90%;
+    width: 80%;
     margin: auto;
     padding: 0.5rem;
     transition: 0.5s;
@@ -76,3 +76,31 @@ button:hover{
     scale: 105%;
     background-color: #282828;
 }
+
+
+@media screen and (max-width: 949px) {
+    .form{
+      width: 80%;
+    }
+
+    .form-title--box h2{
+        font-size: 30px;
+    }
+
+    input{
+        width: 70%;
+    }
+
+    button{
+        width: 90%;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 950px) and (max-width: 1200px) {
+    .form{
+        width: 40%;
+    }
+}
+
+
