@@ -44,7 +44,7 @@ label{
 input{
     width: 60%;
     margin: auto;
-    padding: 0.5rem;
+    padding: 0.7rem;
     text-align: center;
     border: none;
     background-color: #E6E6E6;
@@ -66,6 +66,7 @@ button{
     padding: 0.5rem;
     transition: 0.5s;
     cursor: pointer;
+    font-weight: bold;
     font-family: bebas;
     font-size: 25px;
     background-color: #000;
