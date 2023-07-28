@@ -1,13 +1,13 @@
 import Form from './components/Form/Form'
 import Header from './components/Header/Header'
-import MainImg from './components/MainImg/MainImg'
+import img from './assets/img/main-img.jpg'
 
 function App() {
   return (
     <>
       <Header/>
       <main>
-        <MainImg/>
+        <img src={img} alt="" />
         <Form/>
       </main>
     </>
