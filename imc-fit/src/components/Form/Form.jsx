@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import '../../assets/css/form-style.css'
 
 function Form(){
@@ -10,11 +11,11 @@ function Form(){
                 <hr />
                 <div className='form-box'>
                    <label>Peso</label>
-                   <input type="number" id="weight" step="0.1" min="0" required placeholder='kg' />
+                   <input type="number" id="weight" step="0.1" min="0" required placeholder='kg'/>
                 </div>
                 <div className='form-box'>
                     <label>Altura</label>
-                    <input type="number" id="height" step="0.01" min="0" required placeholder='cm' />
+                    <input type="number" id="height" step="0.01" min="0" required placeholder='cm'/>
                 </div>
                 <div className='form-box'>
                     <button>CALCULAR</button>
