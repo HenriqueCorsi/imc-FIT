@@ -6,9 +6,9 @@ function ImcTable(){
             <h3>Interpretação do IMC</h3>
             <table>
                 <tr>
-                    <td>IMC</td>
-                    <td>Classificação</td>
-                    <td>Obesidade (GRAU)</td>
+                    <td className='top-column'>IMC</td>
+                    <td className='top-column'>Classificação</td>
+                    <td className='top-column'>Obesidade (GRAU)</td>
                 </tr>
                 <tr>
                     <td>Menor que 18.5</td>
