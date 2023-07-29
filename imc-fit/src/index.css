@@ -11,7 +11,7 @@ body{
   background-color: #000000;
 }
 
-.main-box{
+.main-container{
   display: flex;
   justify-content: space-between;
   width: 95%;
@@ -19,16 +19,20 @@ body{
   background-color: #EFFE62;
 }
 
-.main-box img{
+.main-img-box, .main-form-box{
   width: 50%;
 }
 
+.main-container img{
+  width: 100%;
+}
+
 @media screen and (max-width: 949px) {
-    .main-box{
+    .main-container{
       display: block;
     }
 
-    .main-box img{
+    .main-container img{
       width: 100%;
     }
 }
