@@ -27,12 +27,13 @@ body{
   width: 100%;
 }
 
-@media screen and (max-width: 949px) {
-    .main-container{
-      display: block;
-    }
+@media screen and (max-width: 1000px) {
+  .main-container{
+    display: block;
+    padding-bottom: 1rem;
+  }
 
-    .main-container img{
-      width: 100%;
-    }
+  .main-img-box, .main-form-box{
+    width: 100%;
+  }
 }
