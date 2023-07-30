@@ -1,51 +1,68 @@
-import { useState } from 'react';
-import '../../assets/css/form-style.css'
+import React, { useState } from 'react';
+import '../../assets/css/form-style.css';
+import Result from '../Result/Result';
 
-function Form(){
+function Form() {
+  const [weight, setWeight] = useState('');
+  const [height, setHeight] = useState('');
+  const [msg, setMsg] = useState('Seu IMC é: ');
+  const [result, setResult] = useState('');
 
-    const [peso, setPeso] = useState();
-    const [altura, setAltura] = useState();
+  function imcCalculator(e) {
+    e.preventDefault();
+    const weightKg = parseFloat(weight);
+    const heightKg = parseFloat(height) / 100;
 
-    function calculaImc(){
-       
+    if (isNaN(weightKg) || isNaN(heightKg) || weightKg <= 0 || heightKg <= 0) {
+      setResult('');
+      setMsg('Por favor, insira valores válidos para peso e altura.');
+      return;
     }
 
-    return(
-        <>
-            <form className='form'>
-                <div className='form-title--box'>
-                    <h2>Digite seu Dados</h2>
-                </div>
-                <hr />
-                <div className='form-box'>
-                   <label>Peso</label>
-                   <input 
-                    type="number"  
-                    id="weight" 
-                    step="0.1" 
-                    min="0" 
-                    required 
-                    placeholder='kg' 
-                    onChange={(e) => setPeso(e.target.value)}/>
-                </div>
-                <div className='form-box'>
-                    <label>Altura</label>
-                    <input 
-                        type="number" 
-                        id="height" 
-                        step="0.01" 
-                        min="0" 
-                        required 
-                        placeholder='cm'
-                        onChange={(e) => setAltura(e.target.value)}
-                        />
-                </div>
-                <div className='form-box'>
-                    <button onClick={calculaImc}>CALCULAR</button>
-                </div>
-            </form>
-        </>
-    )
+    const imc = weightKg / (heightKg * heightKg);
+
+    setResult(`${imc.toFixed(1)}%`);
+    setMsg('Seu IMC é de: ');
+  }
+
+  return (
+    <>
+      <form className='form'>
+        <div className='form-title--box'>
+          <h2>Digite seu Dados</h2>
+        </div>
+        <hr />
+        <div className='form-box'>
+          <label>Peso</label>
+          <input
+            type='number'
+            id='weight'
+            step='0.1'
+            min='0'
+            required
+            placeholder='kg'
+            onChange={(e) => setWeight(e.target.value)}
+          />
+        </div>
+        <div className='form-box'>
+          <label>Altura</label>
+          <input
+            type='number'
+            id='height'
+            step='0.01'
+            min='0'
+            required
+            placeholder='cm'
+            onChange={(e) => setHeight(e.target.value)}
+          />
+        </div>
+        <div className='form-box'>
+          <button onClick={imcCalculator}>CALCULAR</button>
+        </div>
+        {result && <Result msg={msg} imc={result} />}
+      </form>
+    </>
+  );
 }
 
 export default Form;
