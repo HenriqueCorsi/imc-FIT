@@ -6,7 +6,7 @@
 .form{
     width: 80%;
     padding: 1rem;
-    margin: 6rem auto;
+    margin: 4rem auto;
     background-color: #fff;
 }
 
@@ -16,7 +16,9 @@
 }
 
 hr{
-    margin: 1rem 0;
+    width: 80%;
+    margin: 1rem auto;
+    border: 1px solid #000;
 }
 
 .form-title--box h2{
@@ -41,7 +43,7 @@ label{
 }
 
 input{
-    width: 60%;
+    width: 40%;
     margin: auto;
     padding: 0.7rem;
     text-align: center;
@@ -75,6 +77,30 @@ button{
 button:hover{
     scale: 105%;
     background-color: #282828;
+}
+
+.result-container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.result-container h3{
+    margin: 1.5rem 0;
+}
+
+.result-final{
+    width: 30%;
+    margin: auto;
+    padding: 0.5rem;
+    font-size: 35px;
+    background-color: #EFFE62;
+}
+
+.alert-box{
+    margin: 2rem;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 

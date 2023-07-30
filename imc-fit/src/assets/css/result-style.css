@@ -1,0 +1,22 @@
+.result-container{
+    padding: 0.5rem;
+}
+
+.msg{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.imc-result{
+    width: 20%;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: #EFFE62;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.info{
+    font-size: 20px;
+}
+
