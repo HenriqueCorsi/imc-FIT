@@ -1,5 +1,6 @@
 .imc-table{
-    margin: 15rem 0;
+    width: 95%;
+    margin: 15rem auto;
     padding: 1rem 0 4rem 0;
     background-color: #EFFE62;
 }
