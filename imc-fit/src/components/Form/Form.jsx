@@ -36,7 +36,7 @@ function Form() {
     <>
       <form className='form'>
         <div className='form-title--box'>
-          <h2>Digite seu Dados</h2>
+          <h2>Calculadora - IMC</h2>
         </div>
         <hr />
         <div className='form-box'>
