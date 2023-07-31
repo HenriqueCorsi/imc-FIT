@@ -28,6 +28,8 @@ function Form() {
   function wipeData(){
     setHeight('');
     setWeight('');
+    setMsg('');
+    setResult('');
   }
 
   return (
