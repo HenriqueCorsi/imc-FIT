@@ -15,15 +15,21 @@ function Footer(){
                     </div>
                     <div className='footer-copyright'>
                         <p>Copyright © 2023</p>
-                        <p>Website by <a href="#" target='_blank'>Paulo Henrique</a></p>
+                        <p>Website by <a href="https://www.linkedin.com/in/paulohenrique--/" target='_blank'>Paulo Henrique</a></p>
                     </div>
                 </div>
                 <div className='footer-box'>
                     <h3>CONTATO</h3>
                     <div className='footer-icon'>
-                        <a href="#"><img src={iconLinkedin} alt="icon Linkedin" /></a>
-                        <a href="#"><img src={iconWhatsApp} alt="icon WhatsApp" /></a>
-                        <a href="#"><img src={iconEmail} alt="icon Email" /></a>
+                        <a href="https://www.linkedin.com/in/paulohenrique--/" target='_blank'>
+                            <img src={iconLinkedin} alt="icon Linkedin" />
+                        </a>
+                        <a href="https://wa.me/5511992197753">
+                            <img src={iconWhatsApp} alt="icon WhatsApp" target="_blank" />
+                        </a>
+                        <a href="#">
+                            <img src={iconEmail} alt="icon Email" target="_blank"/>
+                        </a>
                     </div>
                 </div>
             </footer>
