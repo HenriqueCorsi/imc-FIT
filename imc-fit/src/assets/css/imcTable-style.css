@@ -1,3 +1,9 @@
+.imc-table{
+    margin: 8rem 0;
+    padding: 1rem;
+    background-color: #EFFE62;
+}
+
 .imc-table h3{
     margin: 1rem 0;
     text-align: center;
@@ -7,7 +13,9 @@
 }
 
 table{
-    width: 600px;
+    width: 50%;
+    height: 300px;
+    margin: auto;
     color: #fff;
 }
 

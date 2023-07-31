@@ -61,12 +61,19 @@ input:focus{
     font-weight: 700;
 }
 
+.btn-box{
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem auto;
+}
+
 button{
-    width: 80%;
+    width: 30%;
     margin: auto;
-    padding: 0.5rem;
+    padding: 0.2rem;
     transition: 0.5s;
     cursor: pointer;
+    border: none;
     font-weight: bold;
     font-family: bebas;
     font-size: 25px;
@@ -77,6 +84,11 @@ button{
 button:hover{
     scale: 105%;
     background-color: #282828;
+}
+
+#clear{
+    background-color: #0088ff;
+    border: none;
 }
 
 .result-container{
