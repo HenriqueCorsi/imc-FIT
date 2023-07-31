@@ -2,6 +2,7 @@ import Form from './components/Form/Form'
 import Header from './components/Header/Header'
 import img from './assets/img/main-img.jpg'
 import ImcTable from './components/ImcTable/ImcTable';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         </div>
       </div>
       <div className='border-test'>oi</div>
+      <Footer/>
     </>
   )
 }
