@@ -1,0 +1,104 @@
+@font-face {
+    font-family: beam;
+    src: url('../../../public/font/BeamVisionary.otf');
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.footer-box{
+    width: 35%;
+}
+
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 3rem 0;
+}
+
+.footer-logo img{
+    width: 20%;
+    margin: 0 0.5rem 0 0;
+}
+
+#box01 h3{
+    font-size: 30px;
+    font-family: beam;
+    color: #FEFEFE;
+}
+
+.footer-copyright{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+}
+
+.footer-copyright p{
+    font-size: 14px;
+    color: #fff;
+}
+
+.footer-copyright p > a{
+    font-size: 16px;
+    color: #fff;
+}
+
+.footer-contact{
+    margin: 2rem 0;
+    text-decoration: none;
+}
+
+.footer-box h3{
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+}
+
+.footer-icon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 3rem;
+}
+
+.footer-icon a{
+    color: #FEFEFE;
+}
+
+@media screen and (max-width: 1000px) {
+    footer{
+        display: block;
+        width: 95%;
+        margin: auto;
+    }
+
+    .footer-box{
+        width: 100%;
+    }
+
+    .footer-logo{
+        width: 100%;
+    }
+
+    .footer-logo img{
+        width: 50px;
+        margin: 0 0.5rem 0 0;
+    }
+
+    #box01{
+        margin-bottom: 5rem;
+    }
+
+    .footer-copyright{
+        display: block;
+    }
+
+}
