@@ -25,6 +25,11 @@ function Form() {
     setMsg('Seu IMC é de: ');
   }
 
+  function wipeData(){
+    setHeight('');
+    setWeight('');
+  }
+
   return (
     <>
       <form className='form'>
@@ -35,29 +40,32 @@ function Form() {
         <div className='form-box'>
           <label>Peso</label>
           <input
-            type='number'
+            type='text'
             id='weight'
             step='0.1'
             min='0'
             required
             placeholder='kg'
+            value={weight}
             onChange={(e) => setWeight(e.target.value)}
           />
         </div>
         <div className='form-box'>
           <label>Altura</label>
           <input
-            type='number'
+            type='text'
             id='height'
             step='0.01'
             min='0'
             required
             placeholder='cm'
+            value={height}
             onChange={(e) => setHeight(e.target.value)}
           />
         </div>
-        <div className='form-box'>
+        <div className='btn-box'>
           <button onClick={imcCalculator}>CALCULAR</button>
+          <button onClick={wipeData} id='clear'>Limpar</button>
         </div>
         {result && <Result msg={msg} imc={result} />}
       </form>
