@@ -15,6 +15,7 @@ function App() {
           <Form/>
         </div>
       </div>
+      <div className='border-test'>oi</div>
       <ImcTable/>
     </>
   )
