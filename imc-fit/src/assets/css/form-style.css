@@ -116,7 +116,14 @@ button:hover{
 }
 
 
-@media screen and (max-width: 949px) {
+@media screen and (max-width: 499px) {
+    button{
+        width: 30%;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 949px) {
     .form{
       width: 80%;
     }
@@ -126,11 +133,11 @@ button:hover{
     }
 
     input{
-        width: 70%;
+        width: 50%;
     }
 
     button{
-        width: 90%;
+        width: 20%;
         font-size: 20px;
     }
 }
