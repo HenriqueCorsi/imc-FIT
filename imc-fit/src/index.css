@@ -11,6 +11,10 @@ body{
   background-color: #000000;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .main-container{
   display: flex;
   justify-content: space-between;
@@ -26,6 +30,7 @@ body{
 .main-container img{
   width: 100%;
 }
+
 
 @media screen and (max-width: 1000px) {
   .main-container{
