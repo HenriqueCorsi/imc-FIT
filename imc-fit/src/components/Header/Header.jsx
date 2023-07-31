@@ -10,7 +10,7 @@ function Header(){
                     <h1>IMC FIT</h1>
                 </div>
                 <div className='header-desc'>
-                    <a href="#">
+                    <a href="https://www.linkedin.com/in/paulohenrique--/" target='_blank'>
                         CONTATO
                     </a>
                 </div>
