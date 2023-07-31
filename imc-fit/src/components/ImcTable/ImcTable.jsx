@@ -2,7 +2,7 @@ import '../../assets/css/imcTable-style.css';
 
 function ImcTable(){
     return(
-        <div className='imc-table'>
+        <div className='imc-table' id='table'>
             <h3>Interpretação do IMC</h3>
             <table>
                 <tr>
