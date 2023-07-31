@@ -22,7 +22,7 @@ hr{
 }
 
 .form-title--box h2{
-    font-size: 40px;
+    font-size: 35px;
     font-family: bebas;
 }
 
@@ -64,19 +64,19 @@ input:focus{
 .btn-box{
     display: flex;
     justify-content: space-around;
-    margin: 1rem auto;
+    margin: 3rem auto;
 }
 
 button{
     width: 30%;
     margin: auto;
-    padding: 0.2rem;
+    padding: 0.5rem;
     transition: 0.5s;
     cursor: pointer;
     border: none;
     font-weight: bold;
     font-family: bebas;
-    font-size: 25px;
+    font-size: 22px;
     background-color: #000;
     color: #fff;
 }
