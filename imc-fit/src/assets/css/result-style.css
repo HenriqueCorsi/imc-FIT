@@ -1,15 +1,17 @@
 .result-container{
+    margin: 2rem auto;
     padding: 0.5rem;
 }
 
 .msg{
+    margin: 2rem;
     font-size: 20px;
     font-weight: bold;
 }
 
 .imc-result{
     width: 20%;
-    margin: 1rem auto;
+    margin: 3rem auto;
     padding: 1rem;
     background-color: #EFFE62;
     font-size: 25px;
