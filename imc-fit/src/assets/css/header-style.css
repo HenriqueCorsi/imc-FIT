@@ -1,6 +1,6 @@
 @font-face {
-    font-family: bebas;
-    src: url('../font/Bebas-Regular.otf');
+    font-family: beam;
+    src: url('../../../public/font/BeamVisionary.otf');
 }
 
 .header-container{
@@ -25,13 +25,13 @@
 
 .logo-box h1{
     font-size: 40px;
-    font-family: bebas;
+    font-family: beam;
     color: #FEFEFE;
 }
 
 .header-desc{
     width: 10%;
-    padding: 0.5rem;
+    padding: 0.7rem;
     transition: 0.5s;
     text-align: center;
     background-color: #EFFE62;
@@ -44,9 +44,9 @@
 
 .header-desc a{
     text-decoration: none;
-    font-family: bebas;
-    font-size: 30px;
-    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 550;
     color: #000000;
 }
 

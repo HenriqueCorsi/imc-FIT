@@ -1,10 +1,10 @@
 @font-face {
-    font-family: bebas;
-    src: url('../font/Bebas-Regular.otf');
+    font-family: tommy;
+    src: url('../../../public/font/MADE\ TOMMY\ Medium_PERSONAL\ USE.otf');
 }
 
 .form{
-    width: 80%;
+    width: 60%;
     padding: 1rem;
     margin: 4rem auto;
     background-color: #fff;
@@ -22,8 +22,8 @@ hr{
 }
 
 .form-title--box h2{
-    font-size: 35px;
-    font-family: bebas;
+    font-size: 20px;
+    font-family: tommy;
 }
 
 .form-box{
@@ -37,15 +37,14 @@ hr{
 
 label{
     margin-bottom: 0.5rem;
-    font-size: 20px;
-    font-family: bebas;
-    font-weight: 700;
+    font-size: 16px;
+    font-family: tommy;
 }
 
 input{
     width: 40%;
     margin: auto;
-    padding: 0.7rem;
+    padding: 0.5rem;
     text-align: center;
     border: none;
     background-color: #E6E6E6;
@@ -73,23 +72,20 @@ button{
     padding: 0.5rem;
     transition: 0.5s;
     cursor: pointer;
-    border: none;
+    border: 1px solid #000;
     font-weight: bold;
-    font-family: bebas;
-    font-size: 22px;
+    font-family: tommy;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+button:hover{
+    scale: 103%;
     background-color: #000;
     color: #fff;
 }
 
-button:hover{
-    scale: 105%;
-    background-color: #282828;
-}
-
-#clear{
-    background-color: #0088ff;
-    border: none;
-}
 
 .result-container{
     width: 80%;
