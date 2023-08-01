@@ -7,9 +7,6 @@ function Result({msg, imc}){
             <div className="result-container">
                 <p className='msg'>{msg}</p>
                 <p className='imc-result'>{imc}</p>
-                <a href="#table" className='info'>
-                    Veja a interpretação do IMC
-                </a>
             </div>
         </>
     )

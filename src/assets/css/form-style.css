@@ -23,7 +23,7 @@ hr{
 
 .form-title--box h2{
     font-size: 20px;
-    font-family: tommy;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .form-box{
@@ -38,7 +38,7 @@ hr{
 label{
     margin-bottom: 0.5rem;
     font-size: 16px;
-    font-family: tommy;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 input{
@@ -74,7 +74,7 @@ button{
     cursor: pointer;
     border: 1px solid #000;
     font-weight: bold;
-    font-family: tommy;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     background-color: #ffffff;
     color: #000000;
