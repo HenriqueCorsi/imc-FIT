@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../../assets/css/form-style.css';
 import Result from '../Result/Result';
+import ImcTable from '../ImcTable/ImcTable'
 
 function Form() {
   const [weight, setWeight] = useState('');
@@ -71,6 +72,10 @@ function Form() {
         </div>
         {result && <Result msg={msg} imc={result} />}
       </form>
+      {result &&  <ImcTable/>}
+      <div>
+       
+      </div>
     </>
   );
 }
