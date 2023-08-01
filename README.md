@@ -1,2 +1,8 @@
-# imc-FIT
- O IMC Fit é uma aplicação web que permite aos usuários calcular seu Índice de Massa Corporal de forma rápida e fácil. O IMC é uma medida utilizada para avaliar se o peso do usuário está adequado em relação à sua altura, sendo útil para monitorar a saúde e a forma física.
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
